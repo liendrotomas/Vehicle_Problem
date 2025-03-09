@@ -75,12 +75,12 @@ Three classes were defined:
 ```
 This will install all libraries required to run the code.
 
-1. Activate the environment 
+2. Activate the environment 
 ```bash
 source venv/Scripts/activate
 ```
 
-1. To deactivate the virtual environment run:
+3. To deactivate the virtual environment run:
 ```bash
 deactivate
 ```
@@ -99,7 +99,7 @@ Depending on your python configuration.
 1. After running the code, you should see the next output for the velocity profile of the Vehicle prior to the controller implementation:
 ![Plot1](output/velocity_profile_no_control.png)
 
-1. When the PID controller is activated, the output is: 
+2. When the PID controller is activated, the output is: 
    
 ![Plot2](output/velocity_profile.png)
 
