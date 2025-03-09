@@ -61,11 +61,11 @@ The [main](main.py) script sets up the complete environment.
 
 Three classes were defined:
 
-* [Vehicle](modules\vehicle.py): Containing all information about a vehicle and the friction forces acting on it.
-* [Controller](modules\controller.py): Defined as an abstract class to serve as template/interface for future implementations of different controllers.
+* [Vehicle](modules/vehicle.py): Containing all information about a vehicle and the friction forces acting on it.
+* [Controller](modules/controller.py): Defined as an abstract class to serve as template/interface for future implementations of different controllers.
   * **PID_Discrete_Controller**: Implements the PID controller.
   * **No_Controller**: Used to simulate that the vehicle has no controller active.
-* [Simulation](modules\simulation.py): Object to create a scenario with the vehicle, controllers and run the simulation.
+* [Simulation](modules/simulation.py): Object to create a scenario with the vehicle, controllers and run the simulation.
 
 ## Usage
 ### Setup virtual environment
