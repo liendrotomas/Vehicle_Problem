@@ -103,6 +103,7 @@ def main():
     plt.show()
 
     ######### Robustness with respect to the initial velocity #########
+    logging.info(f'Starting robustness analysis...')
     velocity_vec = []
     settling_time = []
     for v0 in np.arange(start=-50, stop=50, step=5):
@@ -118,6 +119,7 @@ def main():
     plt.legend(loc='right')
     plt.title('Robustness analysis with respect to the initial velocity')
     plt.savefig('output/response_sensitivity.png')
+    logging.info(f'Robustness analysis completed.')
     
     plt.figure()
     plt.plot(velocity_vec,settling_time)
