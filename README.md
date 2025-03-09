@@ -5,7 +5,7 @@
 Consider the following one-dimensional problem:
 You have a 1 kg vehicle with an initial velocity of 10 m/s, subject to a force which is a function of its velocity:
 
-$f [N]: -sign(velocity\_mps) * k\_kgpm * (velocity\_mps)^2$ 
+$f [N]: -sign(velocity\_{mps}) * k\_{kgpm} * (velocity\_{mps})^2$ 
 
 with $k\_kgpm = 0.05 [kg/m]$.
 
@@ -61,11 +61,11 @@ The [main](main.py) script sets up the complete environment.
 
 Three classes were defined:
 
-* [Vehicle](modules\vehicle.py): Containing all information about a vehicle and the friction forces acting on it.
-* [Controller](modules\controller.py): Defined as an abstract class to serve as template/interface for future implementations of different controllers.
+* [Vehicle](modules/vehicle.py): Containing all information about a vehicle and the friction forces acting on it.
+* [Controller](modules/controller.py): Defined as an abstract class to serve as template/interface for future implementations of different controllers.
   * **PID_Discrete_Controller**: Implements the PID controller.
   * **No_Controller**: Used to simulate that the vehicle has no controller active.
-* [Simulation](modules\simulation.py): Object to create a scenario with the vehicle, controllers and run the simulation.
+* [Simulation](modules/simulation.py): Object to create a scenario with the vehicle, controllers and run the simulation.
 
 ## Usage
 ### Setup virtual environment
