@@ -5,7 +5,7 @@
 Consider the following one-dimensional problem:
 You have a 1 kg vehicle with an initial velocity of 10 m/s, subject to a force which is a function of its velocity:
 
-$f [N]: -sign(velocity\_mps) * k\_kgpm * (velocity\_mps)^2$ 
+$f [N]: -sign(velocity\_{mps}) * k\_{kgpm} * (velocity\_{mps})^2$ 
 
 with $k\_kgpm = 0.05 [kg/m]$.
 
